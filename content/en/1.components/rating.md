@@ -1,28 +1,58 @@
 ---
 title: Rating
-description: 'Introducing my awesome documentation'
+description: ''
 category: 'Components'
 features:
   - Write in Markdown
   - Use Vue components
   - Designed with TailwindCSS
   - Light and Dark mode
+codesandboxLink: 'https://codesandbox.io/embed/cssonly-rating-mm25y?hidenavigation=1&hidedevtools=1view=preview&theme=light'
 ---
 
-Welcome to my awesome documentation using [Docus](https://docus.dev).
+<code-group>
+  <code-block label="Example" active>
+    <div class="p-10 text-center">
+      <div class="cssonly-rating">
+        <input type="radio" name="rating" value="5" id="rating-5" />
+        <label for="rating-5"></label>
+        <input type="radio" name="rating" value="4" id="rating-4" />
+        <label for="rating-4"></label>
+        <input type="radio" name="rating" value="3" id="rating-3" />
+        <label for="rating-3"></label>
+        <input type="radio" name="rating" value="2" id="rating-2" />
+        <label for="rating-2"></label>
+        <input type="radio" name="rating" value="1" id="rating-1" />
+        <label for="rating-1"></label>
+      </div>
+    </div>
+  </code-block>
 
-<alert type="success">
+  <code-block label="Code">
 
-I am a success alert 🚀
+```html
+<div class="cssonly-rating">
+  <input type="radio" name="rating" value="5" id="rating-5" />
+  <label for="rating-5"></label>
+  <input type="radio" name="rating" value="4" id="rating-4" />
+  <label for="rating-4"></label>
+  <input type="radio" name="rating" value="3" id="rating-3" />
+  <label for="rating-3"></label>
+  <input type="radio" name="rating" value="2" id="rating-2" />
+  <label for="rating-2"></label>
+  <input type="radio" name="rating" value="1" id="rating-1" />
+  <label for="rating-1"></label>
+</div>
+```
 
-</alert>
+  </code-block>
+</code-group>
 
-## Features
+## Options
 
 <list :items="features"></list>
 
-<p class="flex items-center">Enjoy a documentation with light and dark mode:&nbsp;<color-switcher class="inline-flex ml-2"></color-switcher></p>
 
-## About
+## Codesandbox
 
-This starter is done by the [Nuxt Team](https://nuxtjs.org) under MIT license 💚
+<iframe style="height: 300px;" :src="codesandboxLink" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>

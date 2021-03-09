@@ -3714,6 +3714,11 @@ csso@^4.0.2:
   dependencies:
     css-tree "^1.1.2"
 
+cssonly@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/cssonly/-/cssonly-0.0.2.tgz#0db854e836ef2fbc1a10c87210c4dd6b9f30418d"
+  integrity sha512-KFrTzq8ZvnwMNYaclrgHvMrcSZWyFa9LpyQ+9J0iCpwVBZFXlbs1PZOW7qroNWs/ulv07/n4N6NhASUN9Ctv+g==
+
 csvtojson@^2.0.10:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/csvtojson/-/csvtojson-2.0.10.tgz#11e7242cc630da54efce7958a45f443210357574"
