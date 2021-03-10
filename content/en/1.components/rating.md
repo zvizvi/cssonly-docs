@@ -68,9 +68,12 @@ codesandboxLinks: {
 ```
 
 ### HTML Attributes options
-<p class="box">
-A default initial value can be set by adding <samp>checked</samp> attribute to one of the radio inputs.
-</p>
+
+<alert type="info">
+
+A default initial value can be set by adding `checked` attribute to one of the radio inputs.
+
+</alert>
 
 ---
 
@@ -85,17 +88,3 @@ A default initial value can be set by adding <samp>checked</samp> attribute to o
 
 ### Custom icons using FontAwesome
 <iframe style="height: 140px;" :src="codesandboxLinks.customIconsFontAwesome+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
-
-
-<style>
-.box {
-  color: #fff;
-  background-color: #1f2937;
-  line-height: 1.7142857;
-  border-radius: 0.375rem;
-  padding-top: 0.8571429em;
-  padding-right: 1.1428571em;
-  padding-bottom: 0.8571429em;
-  padding-left: 1.1428571em;
-}
-</style>
