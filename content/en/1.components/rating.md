@@ -69,7 +69,7 @@ codesandboxLinks: {
 
 ### HTML Attributes options
 <p class="box">
-A default initial value can be set by adding <code>checked</code> attribute to one of the radio inputs.
+A default initial value can be set by adding <samp>checked</samp> attribute to one of the radio inputs.
 </p>
 
 ---

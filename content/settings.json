@@ -1,5 +1,8 @@
 {
   "title": "CSSonly Docs",
-  "url": "https://docus.dev",
-  "github": "zvizvi/cssonly-docs"
+  "url": "https://cssonly.vercel.app",
+  "github": {
+    "repo": "zvizvi/cssonly-docs",
+    "branch": "main"
+  }
 }
