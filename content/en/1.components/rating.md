@@ -1,6 +1,6 @@
 ---
 title: Rating
-description: ''
+description: 'Fully featured Rating component using CSS only, no JS at all'
 category: 'Components'
 codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light'
 codesandboxLinks: {
