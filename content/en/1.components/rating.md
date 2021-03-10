@@ -2,16 +2,22 @@
 title: Rating
 description: ''
 category: 'Components'
-features:
-  - Write in Markdown
-  - Use Vue components
-  - Designed with TailwindCSS
-  - Light and Dark mode
-codesandboxLink: 'https://codesandbox.io/embed/cssonly-rating-mm25y?hidenavigation=1&hidedevtools=1view=preview&theme=light'
+codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light'
+codesandboxLinks: {
+  initialValueSet: 'https://codesandbox.io/embed/cssonly-rating-initial-value-set-mm25y',
+  customIcons: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-nfnst',
+  customIconsFontAwesome: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-fontawesome-rwivm'
+}
 ---
 
+## Example
 <code-group>
   <code-block label="Example" active>
+    <style>
+      .dark .cssonly-rating {
+        --non-filled-color: rgb(209, 213, 219);
+      }
+    </style>
     <div class="p-10 text-center">
       <div class="cssonly-rating">
         <input type="radio" name="rating" value="5" id="rating-5" />
@@ -27,7 +33,9 @@ codesandboxLink: 'https://codesandbox.io/embed/cssonly-rating-mm25y?hidenavigati
       </div>
     </div>
   </code-block>
+</code-group>
 
+<code-group>
   <code-block label="Code">
 
 ```html
@@ -50,9 +58,44 @@ codesandboxLink: 'https://codesandbox.io/embed/cssonly-rating-mm25y?hidenavigati
 
 ## Options
 
-<list :items="features"></list>
+### CSS Variables
+```css
+--icon-size: <px> // default vlaue: 36px
+--filled-icon: <char> // default vlaue: "★"
+--non-filled-icon: <char> // default vlaue: "☆"
+--filled-color: <color> // default vlaue: #ffb400
+--non-filled-color: <color> // default vlaue: rgba(0,0,0,0.26)
+```
+
+### HTML Attributes options
+<p class="box">
+A default initial value can be set by adding <code>checked</code> attribute to one of the radio inputs.
+</p>
+
+---
+
+## Custom examples
+
+### Initial value set
+<iframe style="height: 140px;" :src="codesandboxLinks.initialValueSet+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
 
 
-## Codesandbox
+### Custom icons and colors
+<iframe style="height: 140px;" :src="codesandboxLinks.customIcons+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
 
-<iframe style="height: 300px;" :src="codesandboxLink" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+### Custom icons using FontAwesome
+<iframe style="height: 140px;" :src="codesandboxLinks.customIconsFontAwesome+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+
+
+<style>
+.box {
+  color: #fff;
+  background-color: #1f2937;
+  line-height: 1.7142857;
+  border-radius: 0.375rem;
+  padding-top: 0.8571429em;
+  padding-right: 1.1428571em;
+  padding-bottom: 0.8571429em;
+  padding-left: 1.1428571em;
+}
+</style>
