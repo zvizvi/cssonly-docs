@@ -8,7 +8,7 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "cssonly": "^0.0.3",
+    "cssonly": "^0.0.5",
     "docus": "^0.0.10",
     "nuxt": "^2.15.3"
   }
