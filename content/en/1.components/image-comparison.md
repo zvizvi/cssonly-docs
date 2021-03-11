@@ -68,8 +68,14 @@ As you can see example below.
 
 ## Custom examples
 
-### Initial overlay width 
+### Initial overlay width
 <iframe style="height: 500px;" :src="codesandboxLinks.initialWidthSet+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
 
 ### Custom filter overlay
 <iframe style="height: 500px;" :src="codesandboxLinks.customOverlay+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+
+<style>
+.p-10 {
+  padding: 2.5rem;
+}
+</style>

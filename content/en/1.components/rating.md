@@ -88,3 +88,9 @@ A default initial value can be set by adding `checked` attribute to one of the r
 
 ### Custom icons using FontAwesome
 <iframe style="height: 140px;" :src="codesandboxLinks.customIconsFontAwesome+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+
+<style>
+.p-10 {
+  padding: 2.5rem;
+}
+</style>
