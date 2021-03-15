@@ -21,7 +21,7 @@ category: 'Components'
 
 ## Code
 ```html
-<span cssonly-tooltip="Nice cssonly tooltip">Hover me!</span>,
+<span cssonly-tooltip="Nice cssonly tooltip">Hover me!</span>
 ```
 
 <br>
