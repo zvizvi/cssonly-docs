@@ -22,11 +22,7 @@ codesandboxLinks: {
   <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag the resizer here 👆 to move the overlay slide</center>
 </div>
 
-<br>
-
-<code-group>
-  <code-block label="Code">
-
+## Code
 ```html
 <div class="cssonly-image-comparison">
   <div>
@@ -37,9 +33,6 @@ codesandboxLinks: {
   </div>
 </div>
 ```
-
-  </code-block>
-</code-group>
 
 <br>
 

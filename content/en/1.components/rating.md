@@ -32,11 +32,7 @@ codesandboxLinks: {
   </div>
 </div>
 
-<br>
-
-<code-group>
-  <code-block label="Code">
-
+## Code
 ```html
 <div class="cssonly-rating">
   <input type="radio" name="rating" value="5" id="rating-5" />
@@ -51,9 +47,7 @@ codesandboxLinks: {
   <label for="rating-1"></label>
 </div>
 ```
-
-  </code-block>
-</code-group>
+<br>
 
 ## Options
 
