@@ -10,21 +10,19 @@ codesandboxLinks: {
 ---
 
 ## Example
-<code-group>
-  <code-block label="Example" active>
-    <div class="p-10 text-center">
-      <div class="cssonly-image-comparison">
-        <div>
-          <img src="/img_snow.jpg" style="max-width: unset !important;" />
-        </div>
-        <div>
-          <img src="/img_forest.jpg" />
-        </div>
-      </div>
+<div class="p-10 text-center">
+  <div class="cssonly-image-comparison">
+    <div>
+      <img src="/img_snow.jpg" style="max-width: unset !important;" />
     </div>
-    <center style="position: relative;top: -30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag the resizer here 👆 to move the overlay slide</center>
-  </code-block>
-</code-group>
+    <div>
+      <img src="/img_forest.jpg" />
+    </div>
+  </div>
+  <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag the resizer here 👆 to move the overlay slide</center>
+</div>
+
+<br>
 
 <code-group>
   <code-block label="Code">
@@ -58,7 +56,7 @@ codesandboxLinks: {
 
 <alert type="info">
 
-**Note:** The first image ovelay can be also a `css-filter` div, instead of an image,
+**Note:** The first image ovelay can be also a `css-filter` div instead of an image,
 
 As you can see example below.
 
@@ -77,5 +75,8 @@ As you can see example below.
 <style>
 .p-10 {
   padding: 2.5rem;
+}
+.cssonly-image-comparison img {
+  margin: 0;
 }
 </style>
