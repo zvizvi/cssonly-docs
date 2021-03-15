@@ -6,7 +6,8 @@ codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light
 codesandboxLinks: {
   initialValueSet: 'https://codesandbox.io/embed/cssonly-rating-initial-value-set-mm25y',
   customIcons: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-nfnst',
-  customIconsFontAwesome: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-fontawesome-rwivm'
+  customIconsFontAwesome: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-fontawesome-rwivm',
+  resetOption: 'https://codesandbox.io/embed/cssonly-rating-reset-option-j8o6v'
 }
 ---
 
@@ -86,6 +87,9 @@ A default initial value can be set by adding `checked` attribute to one of the r
 
 ### Custom icons using FontAwesome
 <iframe style="height: 140px;" :src="codesandboxLinks.customIconsFontAwesome+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+
+### Reset option
+<iframe style="height: 140px;" :src="codesandboxLinks.resetOption+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
 
 <style>
 .p-10 {
