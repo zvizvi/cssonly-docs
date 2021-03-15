@@ -26,10 +26,10 @@ codesandboxLinks: {
 ```html
 <div class="cssonly-image-comparison">
   <div>
-    <img src="https://www.w3schools.com/howto/img_snow.jpg" />
+    <img src="https://cssonly.vercel.app/img_snow.jpg" />
   </div>
   <div>
-    <img src="https://www.w3schools.com/howto/img_forest.jpg" />
+    <img src="https://cssonly.vercel.app/img_forest.jpg" />
   </div>
 </div>
 ```

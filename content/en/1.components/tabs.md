@@ -2,10 +2,117 @@
 title: Tabs
 description: 'Fully featured Tabs component using CSS only, no JS at all'
 category: 'Components'
+codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light'
+codesandboxLinks: {
+  fixedWidth: 'https://codesandbox.io/embed/cssonly-tabs-fixed-width-qltpt',
+  customColor: 'https://codesandbox.io/embed/cssonly-tabs-custom-color-oc5mw'
+}
 ---
 
-<alert type="success">
+## Example
+<div class="p-10 text-justify">
+  <div class="cssonly-tabs">
+    <input type="radio" checked name="cssonly-tabs" id="tab-1" />
+    <label for="tab-1">Tab 1</label>
+    <div class="tab-content">
+      Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make
+    </div>
+    <input type="radio" name="cssonly-tabs" id="tab-2" />
+    <label for="tab-2">Tab 2</label>
+    <div class="tab-content">
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of
+      using Lorem Ipsum is that it has a more-or-less normal distribution of
+      letters
+    </div>
+    <input type="radio" name="cssonly-tabs" id="tab-3" />
+    <label for="tab-3">Tab 3</label>
+    <div class="tab-content">
+      There are many variations of passages of Lorem Ipsum available, but
+      the majority have suffered alteration in some form, by injected humour
+    </div>
+    <input type="radio" name="cssonly-tabs" id="tab-4" />
+    <label for="tab-4">Tab 4</label>
+    <div class="tab-content">
+      Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only
+      five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with
+      the release of Letraset sheets containing Lorem Ipsum passages, and
+      more recently with desktop publishing software like Aldus PageMaker
+      including versions of Lorem Ipsum.
+    </div>
+    <input type="radio" name="cssonly-tabs" id="tab-5" />
+    <label for="tab-5">Tab 5</label>
+    <div class="tab-content">
+      The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+      below for those interested
+    </div>
+  </div>
+</div>
 
-Comming soon! 🚀
+## Code
+```html
+<div class="cssonly-tabs">
+  <input type="radio" checked name="cssonly-tabs" id="tab-1" />
+  <label for="tab-1">Tab 1</label>
+  <div class="tab-content">
+    Tab content
+  </div>
+  <input type="radio" name="cssonly-tabs" id="tab-2" />
+  <label for="tab-2">Tab 2</label>
+  <div class="tab-content">
+    Tab content
+  </div>
+  <input type="radio" name="cssonly-tabs" id="tab-3" />
+  <label for="tab-3">Tab 3</label>
+  <div class="tab-content">
+    Tab content
+  </div>
+  <input type="radio" name="cssonly-tabs" id="tab-4" />
+  <label for="tab-4">Tab 4</label>
+  <div class="tab-content">
+    Tab content
+  </div>
+  <input type="radio" name="cssonly-tabs" id="tab-5" />
+  <label for="tab-5">Tab 5</label>
+  <div class="tab-content">
+    Tab content
+  </div>
+</div>
+```
 
-</alert>
+<br>
+
+## Options
+
+### CSS Variables
+```css
+  --tabs-fixed-width: <px>; // Optional. Sets a fixed width for the tabs pans, instead of a relative part width.
+  --line-color: <color> // default vlaue:  #4f46e5;
+  --transition-time: <time> // default vlaue:  0.2s;
+```
+<br>
+<br>
+
+
+---
+
+## Custom examples
+
+### Tabs fixed width
+<iframe style="height: 280px;" :src="codesandboxLinks.fixedWidth+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+
+### Custom color and no animation
+<iframe style="height: 280px;" :src="codesandboxLinks.customColor+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+
+<style>
+.p-10 {
+  padding: 2.5rem;
+}
+</style>
