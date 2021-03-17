@@ -62,11 +62,11 @@ codesandboxLinks: {
 
 ### HTML Attributes options
 
-<alert type="info">
+<d-alert type="info">
 
 A default initial value can be set by adding `checked` attribute to one of the radio inputs.
 
-</alert>
+</d-alert>
 
 ---
 
@@ -84,9 +84,3 @@ A default initial value can be set by adding `checked` attribute to one of the r
 
 ### Reset option
 <iframe style="height: 140px;" :src="codesandboxLinks.resetOption+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
-
-<style>
-.p-10 {
-  padding: 2.5rem;
-}
-</style>

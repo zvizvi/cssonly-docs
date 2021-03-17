@@ -40,9 +40,3 @@ category: 'Components'
   cssonly-tooltip-multiline // long multiline text
 ```
 <br>
-
-<style>
-.p-10 {
-  padding: 2.5rem;
-}
-</style>

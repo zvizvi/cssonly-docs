@@ -47,13 +47,13 @@ codesandboxLinks: {
 <br>
 <br>
 
-<alert type="info">
+<d-alert type="info">
 
 **Note:** The first image ovelay can be also a `css-filter` div instead of an image,
 
 As you can see example below.
 
-</alert>
+</d-alert>
 
 ---
 
@@ -66,9 +66,6 @@ As you can see example below.
 <iframe style="height: 500px;" :src="codesandboxLinks.customOverlay+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
 
 <style>
-.p-10 {
-  padding: 2.5rem;
-}
 .cssonly-image-comparison img {
   margin: 0;
 }

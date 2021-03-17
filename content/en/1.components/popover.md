@@ -4,8 +4,8 @@ description: 'Fully featured Popover component using CSS only, no JS at all'
 category: 'Components'
 ---
 
-<alert type="success">
+<d-alert type="success">
 
 Comming soon! 🚀
 
-</alert>
+</d-alert>

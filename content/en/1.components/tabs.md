@@ -110,9 +110,3 @@ codesandboxLinks: {
 
 ### Custom color and no animation
 <iframe style="height: 280px;" :src="codesandboxLinks.customColor+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
-
-<style>
-.p-10 {
-  padding: 2.5rem;
-}
-</style>

@@ -4,5 +4,6 @@
   "github": {
     "repo": "zvizvi/cssonly-docs",
     "branch": "main"
-  }
+  },
+  "credits": false
 }
