@@ -2,10 +2,9 @@
 title: Tabs
 description: 'Fully featured Tabs component using CSS only, no JS at all'
 category: 'Components'
-codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light'
 codesandboxLinks: {
-  fixedWidth: 'https://codesandbox.io/embed/cssonly-tabs-fixed-width-qltpt',
-  customColor: 'https://codesandbox.io/embed/cssonly-tabs-custom-color-oc5mw'
+  fixedWidth: 'cssonly-tabs-fixed-width-qltpt',
+  customColor: 'cssonly-tabs-custom-color-oc5mw'
 }
 ---
 
@@ -94,8 +93,8 @@ codesandboxLinks: {
 ### CSS Variables
 ```css
   --tabs-fixed-width: <px>; // Optional. Sets a fixed width for the tabs pans, instead of a relative part width.
-  --line-color: <color> // default vlaue:  #4f46e5;
-  --transition-time: <time> // default vlaue:  0.2s;
+  --line-color: <color> // default value: #4f46e5
+  --transition-time: <time> // default value: 0.2s
 ```
 <br>
 <br>
@@ -106,7 +105,7 @@ codesandboxLinks: {
 ## Custom examples
 
 ### Tabs fixed width
-<iframe style="height: 280px;" :src="codesandboxLinks.fixedWidth+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.fixedWidth" iframe-height="280px"></app-code-sandbox>
 
 ### Custom color and no animation
-<iframe style="height: 280px;" :src="codesandboxLinks.customColor+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.customColor" iframe-height="280px"></app-code-sandbox>

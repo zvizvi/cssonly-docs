@@ -2,10 +2,9 @@
 title: Image Comparison
 description: 'Fully featured Image Comparison component using CSS only, no JS at all'
 category: 'Components'
-codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light'
 codesandboxLinks: {
-  initialWidthSet: 'https://codesandbox.io/embed/cssonly-image-comparison-custom-initial-width-t1pd2',
-  customOverlay: 'https://codesandbox.io/embed/cssonly-image-comparison-custom-overlay-c28rr'
+  initialWidthSet: 'cssonly-image-comparison-custom-initial-width-t1pd2',
+  customOverlay: 'cssonly-image-comparison-custom-overlay-c28rr'
 }
 ---
 
@@ -40,9 +39,9 @@ codesandboxLinks: {
 
 ### CSS Variables
 ```css
---height: <px> // default vlaue: 400px;
---width: <px> // default vlaue:  600px;
---initial-overlay-width: <percent> // default vlaue: 50%;
+--height: <px> // default value: 400px
+--width: <px> // default value: 600px
+--initial-overlay-width: <percent> // default value: 50%
 ```
 <br>
 <br>
@@ -60,10 +59,10 @@ As you can see example below.
 ## Custom examples
 
 ### Initial overlay width
-<iframe style="height: 500px;" :src="codesandboxLinks.initialWidthSet+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.initialWidthSet" iframe-height="500px"></app-code-sandbox>
 
 ### Custom filter overlay
-<iframe style="height: 500px;" :src="codesandboxLinks.customOverlay+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.customOverlay" iframe-height="500px"></app-code-sandbox>
 
 <style>
 .cssonly-image-comparison img {

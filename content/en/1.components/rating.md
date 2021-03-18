@@ -2,12 +2,11 @@
 title: Rating
 description: 'Fully featured Rating component using CSS only, no JS at all'
 category: 'Components'
-codesandboxLinkParams: '?hidenavigation=1&hidedevtools=1view=preview&theme=light'
 codesandboxLinks: {
-  initialValueSet: 'https://codesandbox.io/embed/cssonly-rating-initial-value-set-mm25y',
-  customIcons: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-nfnst',
-  customIconsFontAwesome: 'https://codesandbox.io/embed/cssonly-rating-custom-icons-fontawesome-rwivm',
-  resetOption: 'https://codesandbox.io/embed/cssonly-rating-reset-option-j8o6v'
+  initialValueSet: 'cssonly-rating-initial-value-set-mm25y',
+  customIcons: 'cssonly-rating-custom-icons-nfnst',
+  customIconsFontAwesome: 'cssonly-rating-custom-icons-fontawesome-rwivm',
+  resetOption: 'cssonly-rating-reset-option-j8o6v'
 }
 ---
 
@@ -53,11 +52,11 @@ codesandboxLinks: {
 
 ### CSS Variables
 ```css
---icon-size: <px> // default vlaue: 36px
---filled-icon: <char> // default vlaue: "★"
---non-filled-icon: <char> // default vlaue: "☆"
---filled-color: <color> // default vlaue: #ffb400
---non-filled-color: <color> // default vlaue: rgba(0,0,0,0.26)
+--icon-size: <px> // default value: 36px
+--filled-icon: <char> // default value: "★"
+--non-filled-icon: <char> // default value: "☆"
+--filled-color: <color> // default value: #ffb400
+--non-filled-color: <color> // default value: #bdbdbd
 ```
 
 ### HTML Attributes options
@@ -73,14 +72,13 @@ A default initial value can be set by adding `checked` attribute to one of the r
 ## Custom examples
 
 ### Initial value set
-<iframe style="height: 140px;" :src="codesandboxLinks.initialValueSet+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
-
+<app-code-sandbox :url="codesandboxLinks.initialValueSet" iframe-height="140px"></app-code-sandbox>
 
 ### Custom icons and colors
-<iframe style="height: 140px;" :src="codesandboxLinks.customIcons+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.customIcons" iframe-height="140px"></app-code-sandbox>
 
 ### Custom icons using FontAwesome
-<iframe style="height: 140px;" :src="codesandboxLinks.customIconsFontAwesome+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.customIconsFontAwesome" iframe-height="140px"></app-code-sandbox>
 
 ### Reset option
-<iframe style="height: 140px;" :src="codesandboxLinks.resetOption+codesandboxLinkParams" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" class="w-full overflow-hidden"></iframe>
+<app-code-sandbox :url="codesandboxLinks.resetOption" iframe-height="140px"></app-code-sandbox>
