@@ -9,6 +9,11 @@ codesandboxLinks: {
 ---
 
 ## Example
+<style>
+  .dark .cssonly-tabs input[type=radio]:checked+label {
+    color: #fff;
+  }
+</style>
 <div class="p-10 text-justify">
   <div class="cssonly-tabs">
     <input type="radio" checked name="cssonly-tabs" id="tab-1" />
