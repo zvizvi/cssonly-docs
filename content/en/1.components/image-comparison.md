@@ -43,7 +43,7 @@ codesandboxLinks: {
 --width: <px> // default value: 600px
 --initial-overlay-width: <percent> // default value: 50%
 ```
-<br>
+
 <br>
 
 <d-alert type="info">
