@@ -101,7 +101,7 @@ codesandboxLinks: {
   --line-color: <color> // default value: #4f46e5
   --transition-time: <time> // default value: 0.2s
 ```
-<br>
+
 <br>
 
 
