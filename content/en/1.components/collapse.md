@@ -6,6 +6,6 @@ category: 'Components'
 
 <d-alert type="success">
 
-Comming soon! 🚀
+Coming soon! 🚀
 
 </d-alert>
