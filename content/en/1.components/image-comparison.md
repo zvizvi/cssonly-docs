@@ -48,7 +48,7 @@ codesandboxLinks: {
 
 <d-alert type="info">
 
-**Note:** The first image ovelay can be also a `css-filter` div instead of an image,
+**Note:** The first image overlay can be also a `css-filter` div instead of an image,
 
 As you can see example below.
 

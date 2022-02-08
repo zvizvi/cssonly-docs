@@ -4675,10 +4675,10 @@ csso@^4.0.2:
   dependencies:
     css-tree "^1.1.2"
 
-cssonly@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/cssonly/-/cssonly-0.0.8.tgz#efbd99f3775078d32d550821dddc578b5320f913"
-  integrity sha512-y2D5NNiyjN2JU8QPL8RwHKCna95LgqKNi8lhtAWfUSXWYdKagWEqX/sSXn9FGu2k9Kw2PbA54GfuoKqk/D96CA==
+cssonly@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/cssonly/-/cssonly-0.0.9.tgz#731c59898c1490dfa17eff8e9fb9e3221f84b9c3"
+  integrity sha512-aXNN1ABaIk+z8PqMXEm2+4FojkZYz4obZ4c/RuxMApu401m6KwJ0LJdof+0mAQAdK7d72NyRNWKdHh3uZ519+Q==
 
 csvtojson@^2.0.10:
   version "2.0.10"
