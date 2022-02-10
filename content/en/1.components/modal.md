@@ -5,7 +5,8 @@ category: 'Components'
 codesandboxLinks: {
   noBackdrop: 'cssonly-modal-no-backdrop-61vo4',
   staticBackdrop: 'cssonly-modal-static-backdrop-yxc0j',
-  noCloseButtons: 'cssonly-modal-no-close-buttons-xntjg'
+  noCloseButtons: 'cssonly-modal-no-close-buttons-xntjg',
+  noAnimation: 'cssonly-modal-no-animation-zqoli'
 }
 ---
 
@@ -20,7 +21,7 @@ codesandboxLinks: {
   <input type="checkbox" class="cssonly-modal-checkbox" name="modal1" id="modal1" />
   <label for="modal1" class="cursor-pointer">Show Modal</label>
 
-  <div class="cssonly-modal" id="modal1">
+  <div class="cssonly-modal">
     <label class="cssonly-modal-backdrop" for="modal1"></label>
     <div class="cssonly-modal-content text-left">
       <label for="modal1" class="cssonly-modal-close"></label>
@@ -46,7 +47,7 @@ codesandboxLinks: {
 <input type="checkbox" class="cssonly-modal-checkbox" name="modal1" id="modal1" />
 <label for="modal1">Show Modal</label>
 
-<div class="cssonly-modal" id="modal1">
+<div class="cssonly-modal">
   <!-- Optional backdrop -->
   <label class="cssonly-modal-backdrop" for="modal1"></label>
   <!-- end -->
@@ -97,3 +98,6 @@ The `cssonly-modal-backdrop` can be changed from `<label>` to a `<div>` tag, to 
 
 ### No close buttons
 <app-code-sandbox :url="codesandboxLinks.noCloseButtons" iframe-height="320px"></app-code-sandbox>
+
+### No animation
+<app-code-sandbox :url="codesandboxLinks.noAnimation" iframe-height="320px"></app-code-sandbox>
