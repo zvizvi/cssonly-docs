@@ -9,11 +9,6 @@ codesandboxLinks: {
 ---
 
 ## Example
-<style>
-  .dark .cssonly-tabs input[type=radio]:checked+label {
-    color: #fff;
-  }
-</style>
 <div class="p-10 text-justify">
   <div class="cssonly-tabs">
     <input type="radio" checked name="cssonly-tabs" id="tab-1" />
@@ -114,3 +109,9 @@ codesandboxLinks: {
 
 ### Custom color and no animation
 <app-code-sandbox :url="codesandboxLinks.customColor" iframe-height="280px"></app-code-sandbox>
+
+<style>
+  .dark .cssonly-tabs input[type=radio]:checked+label {
+    color: #fff;
+  }
+</style>

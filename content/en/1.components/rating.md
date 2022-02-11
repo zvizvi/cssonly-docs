@@ -11,11 +11,6 @@ codesandboxLinks: {
 ---
 
 ## Example
-<style>
-  .dark .cssonly-rating {
-    --non-filled-color: rgb(209, 213, 219);
-  }
-</style>
 <div class="p-10 text-center">
   <div class="cssonly-rating">
     <input type="radio" name="rating" value="5" id="rating-5" />
@@ -82,3 +77,9 @@ A default initial value can be set by adding `checked` attribute to one of the r
 
 ### Reset option
 <app-code-sandbox :url="codesandboxLinks.resetOption" iframe-height="140px"></app-code-sandbox>
+
+<style>
+  .dark .cssonly-rating {
+    --non-filled-color: rgb(209, 213, 219);
+  }
+</style>

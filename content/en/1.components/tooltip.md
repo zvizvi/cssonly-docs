@@ -29,7 +29,7 @@ category: 'Components'
 ## Options
 
 ### Class names
-```html
+```javascript
   // the default alignment is top center
   cssonly-tooltip-top-left // top left
   cssonly-tooltip-top-right // top right

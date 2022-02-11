@@ -11,12 +11,6 @@ codesandboxLinks: {
 ---
 
 ## Example
-<style>
-  .dark .cssonly-modal .cssonly-modal-content {
-    color: #44403c;
-    --non-filled-color: rgb(209, 213, 219);
-  }
-</style>
 <div class="p-10 text-center">
   <input type="checkbox" class="cssonly-modal-checkbox" name="modal1" id="modal1" />
   <label for="modal1" class="cursor-pointer">Show Modal</label>
@@ -76,7 +70,7 @@ codesandboxLinks: {
 --animation-time: <time> // default value: 0.3s
 ```
 
-### HTML Options ###
+### HTML Options
 <d-alert type="info">
 
 The `cssonly-modal-backdrop` can be changed from `<label>` to a `<div>` tag, to make it static - non-clickable
@@ -101,3 +95,9 @@ The `cssonly-modal-backdrop` can be changed from `<label>` to a `<div>` tag, to 
 
 ### No animation
 <app-code-sandbox :url="codesandboxLinks.noAnimation" iframe-height="320px"></app-code-sandbox>
+
+<style>
+  .dark .cssonly-modal .cssonly-modal-content {
+    color: #44403c;
+  }
+</style>
