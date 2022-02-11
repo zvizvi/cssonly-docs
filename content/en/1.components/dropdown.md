@@ -63,7 +63,7 @@ codesandboxLinks: {
 
 <d-alert type="info">
 
-**Important:** When using the `cssonly-dropdown-onhover` option, you most also replacing the `<details>` element with a regular `<div>` tag (see an example below).
+**Important:** When using the `cssonly-dropdown-onhover` option, you most also replace the `<details>` element with a regular `<div>` tag (see an example below).
 
 </d-alert>
 <br>
@@ -101,6 +101,6 @@ codesandboxLinks: {
     --background-color: #292524;
     --color: rgba(214, 211, 209, var(--tw-text-opacity));
     --hover-background-color: rgba(68, 64, 60, var(--tw-bg-opacity));
-     --hover-color: rgba(255, 255, 255, var(--tw-text-opacity));
+    --hover-color: rgba(255, 255, 255, var(--tw-text-opacity));
   }
 </style>
