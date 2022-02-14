@@ -3814,15 +3814,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001181, caniuse-lite@^1.0.30001196:
-  version "1.0.30001202"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001202.tgz"
-  integrity sha512-ZcijQNqrcF8JNLjzvEiXqX4JUYxoZa7Pvcsd9UD8Kz4TvhTonOSNRsK+qtvpVL4l6+T1Rh4LFtLfnNWg6BGWCQ==
-
-caniuse-lite@^1.0.30001205:
-  version "1.0.30001205"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001205.tgz"
-  integrity sha512-TL1GrS5V6LElbitPazidkBMD9sa448bQDDLrumDqaggmKFcuU2JW1wTOHJPukAcOMtEmLcmDJEzfRrf+GjM0Og==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001181, caniuse-lite@^1.0.30001196, caniuse-lite@^1.0.30001205:
+  version "1.0.30001312"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001312.tgz"
+  integrity sha512-Wiz1Psk2MEK0pX3rUzWaunLTZzqS2JYZFzNKqAiJGiuxIjRPLgV6+VDPOg6lQOUxmDwhTlh198JsTTi8Hzw6aQ==
 
 capital-case@^1.0.4:
   version "1.0.4"
@@ -4675,10 +4670,10 @@ csso@^4.0.2:
   dependencies:
     css-tree "^1.1.2"
 
-cssonly@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.npmjs.org/cssonly/-/cssonly-0.0.10.tgz"
-  integrity sha512-CB6BQ738gx8vRHnWbG+aW0FmQZ+KAR/H3h4OB51HYv6PuPoXrikDh7m+tP7Iq/GOnXzsWQa8r+p+CXiwnuTlOw==
+cssonly@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/cssonly/-/cssonly-0.0.15.tgz#af0fbea6154976df9613bc77f77854e624f8e71d"
+  integrity sha512-6cQtxnziAWY7k/8PTUOTy+H+Lk9FiUPS7rWN4+aH6xVhgwtpKok3sdy2UvifsyQ+9Ts2Kk3Zn3IaI7ElsQKjzw==
 
 csvtojson@^2.0.10:
   version "2.0.10"
@@ -11731,10 +11726,10 @@ vue-client-only@^2.0.0:
   resolved "https://registry.npmjs.org/vue-client-only/-/vue-client-only-2.0.0.tgz"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
-vue-demi@latest:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
-  integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
+vue-demi@0.11.4, vue-demi@latest:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.11.4.tgz#6101992fe4724cf5634018a16e953f3052e94e2a"
+  integrity sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==
 
 vue-docgen-api@^4.35.0:
   version "4.35.0"
