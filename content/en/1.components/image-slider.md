@@ -117,12 +117,13 @@ codesandboxLinks: {
 
 ---
 
-## No Arrows
+## Custom examples
+
+### No Arrows
 <app-code-sandbox :url="codesandboxLinks.noArrows" iframe-height="320px"></app-code-sandbox>
 
 ### No Tracks
 <app-code-sandbox :url="codesandboxLinks.noTracks" iframe-height="320px"></app-code-sandbox>
-
 
 <style>
   .dark .cssonly-modal .cssonly-modal-content {
