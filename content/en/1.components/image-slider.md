@@ -4,7 +4,8 @@ description: 'Fully featured Image Slider component using CSS only, no JS at all
 category: 'Components'
 codesandboxLinks: {
   noArrows: 'cssonly-image-slider-noArrows-l2vvq',
-  noTracks: 'cssonly-image-slider-notracks-jy90r'
+  noTracks: 'cssonly-image-slider-notracks-jy90r',
+  noTransition: 'cssonly-image-slider-notransition-bbrof',
 }
 ---
 
@@ -124,6 +125,9 @@ codesandboxLinks: {
 
 ### No Tracks
 <app-code-sandbox :url="codesandboxLinks.noTracks" iframe-height="320px"></app-code-sandbox>
+
+### No Transition
+<app-code-sandbox :url="codesandboxLinks.noTransition" iframe-height="320px"></app-code-sandbox>
 
 <style>
   .dark .cssonly-modal .cssonly-modal-content {
