@@ -3,8 +3,9 @@ title: Image Slider
 description: 'Fully featured Image Slider component using CSS only, no JS at all'
 category: 'Components'
 codesandboxLinks: {
+  clickToSlide: 'cssonly-image-slider-clickToSlide-f5hr77',
   noArrows: 'cssonly-image-slider-noArrows-l2vvq',
-  noTracks: 'cssonly-image-slider-notracks-jy90r',
+  noDots: 'cssonly-image-slider-nodots-jy90r',
   noTransition: 'cssonly-image-slider-notransition-bbrof',
 }
 ---
@@ -44,7 +45,7 @@ codesandboxLinks: {
       <label class="next-arrow" for="slide-3"></label>
       <label class="next-arrow" for="slide-4"></label>
     </div>
-    <div class="tracks">
+    <div class="dots">
       <label for="slide-1"></label>
       <label for="slide-2"></label>
       <label for="slide-3"></label>
@@ -93,8 +94,8 @@ codesandboxLinks: {
   </div>
   <!-- end -->
 
-  <!-- Optional slider tracks -->
-  <div class="tracks">
+  <!-- Optional slider dots -->
+  <div class="dots">
     <label for="slide-1"></label>
     <label for="slide-2"></label>
     <label for="slide-3"></label>
@@ -116,21 +117,24 @@ codesandboxLinks: {
   --next-arrow: <char> // default value: "❯";
 ```
 
+### Class names
+```less
+  click-to-slide // move to the prev or next slide when clicked on image. optional
+```
+<br>
+
 ---
 
 ## Custom examples
 
-### No Arrows
-<app-code-sandbox :url="codesandboxLinks.noArrows" iframe-height="320px"></app-code-sandbox>
+### Click on image to slide
+<app-code-sandbox :url="codesandboxLinks.clickToSlide" iframe-height="330px"></app-code-sandbox>
 
-### No Tracks
-<app-code-sandbox :url="codesandboxLinks.noTracks" iframe-height="320px"></app-code-sandbox>
+### No Arrows
+<app-code-sandbox :url="codesandboxLinks.noArrows" iframe-height="330px"></app-code-sandbox>
+
+### No Dots
+<app-code-sandbox :url="codesandboxLinks.noDots" iframe-height="330px"></app-code-sandbox>
 
 ### No Transition
-<app-code-sandbox :url="codesandboxLinks.noTransition" iframe-height="320px"></app-code-sandbox>
-
-<style>
-  .dark .cssonly-modal .cssonly-modal-content {
-    color: #44403c;
-  }
-</style>
+<app-code-sandbox :url="codesandboxLinks.noTransition" iframe-height="330px"></app-code-sandbox>
