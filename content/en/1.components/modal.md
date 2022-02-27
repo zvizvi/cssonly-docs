@@ -6,6 +6,7 @@ codesandboxLinks: {
   noBackdrop: 'cssonly-modal-no-backdrop-61vo4',
   staticBackdrop: 'cssonly-modal-static-backdrop-yxc0j',
   noCloseButtons: 'cssonly-modal-no-close-buttons-xntjg',
+  centered: 'cssonly-modal-centered-ne4wck',
   noAnimation: 'cssonly-modal-no-animation-zqoli'
 }
 ---
@@ -17,7 +18,7 @@ codesandboxLinks: {
 
   <div class="cssonly-modal">
     <label class="cssonly-modal-backdrop" for="modal1"></label>
-    <div class="cssonly-modal-content text-left">
+    <div class="cssonly-modal-content">
       <label for="modal1" class="cssonly-modal-close"></label>
       <div class="cssonly-modal-header">Modal Header</div>
       <div class="cssonly-modal-body">
@@ -70,6 +71,11 @@ codesandboxLinks: {
 --animation-time: <time> // default value: 0.3s
 ```
 
+### Class names
+```less
+  centered // vertically center the modal
+```
+
 ### HTML Options
 <d-alert type="info">
 
@@ -92,6 +98,9 @@ The `cssonly-modal-backdrop` can be changed from `<label>` to a `<div>` tag, to 
 
 ### No close buttons
 <app-code-sandbox :url="codesandboxLinks.noCloseButtons" iframe-height="320px"></app-code-sandbox>
+
+### Vertically centered
+<app-code-sandbox :url="codesandboxLinks.centered" iframe-height="320px"></app-code-sandbox>
 
 ### No animation
 <app-code-sandbox :url="codesandboxLinks.noAnimation" iframe-height="320px"></app-code-sandbox>

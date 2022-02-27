@@ -119,7 +119,7 @@ codesandboxLinks: {
 
 ### Class names
 ```less
-  click-to-slide // move to the prev or next slide when clicked on image. optional
+  click-to-slide // move to the prev or next slide when clicking on image. optional
 ```
 <br>
 
