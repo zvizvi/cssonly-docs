@@ -1,11 +1,13 @@
 ---
-title: Image Comparison
-description: 'Fully featured Image Comparison component using CSS only, no JS at all'
-category: 'Components'
 codesandboxLinks: {
   initialWidthSet: 'cssonly-image-comparison-custom-initial-width-t1pd2',
   customOverlay: 'cssonly-image-comparison-custom-overlay-c28rr'
 }
+---
+
+# Image Comparison
+Fully featured Image Comparison component using CSS only, no JS at all
+
 ---
 
 ## Example
@@ -46,13 +48,11 @@ codesandboxLinks: {
 
 <br>
 
-<d-alert type="info">
-
+::alert{type=info}
 **Note:** The first image overlay can be also a `css-filter` div instead of an image,
 
 As you can see example below.
-
-</d-alert>
+::
 
 ---
 

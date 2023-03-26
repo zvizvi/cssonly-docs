@@ -1,11 +1,13 @@
 ---
-title: Tabs
-description: 'Fully featured Tabs component using CSS only, no JS at all'
-category: 'Components'
 codesandboxLinks: {
   fixedWidth: 'cssonly-tabs-fixed-width-qltpt',
   customColor: 'cssonly-tabs-custom-color-oc5mw'
 }
+---
+
+# Tabs
+Fully featured Tabs component using CSS only, no JS at all
+
 ---
 
 ## Example
@@ -92,7 +94,7 @@ codesandboxLinks: {
 
 ### CSS Variables
 ```css
-  --tabs-fixed-width: <px>; // Optional. Sets a fixed width for the tabs pans, instead of a relative part width.
+  --tabs-fixed-width: <px>; // Optional. Sets a fixed width for the tabs pans, instead of relative part width.
   --line-color: <color> // default value: #4f46e5
   --transition-time: <time> // default value: 0.2s
 ```

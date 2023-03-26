@@ -1,13 +1,15 @@
 ---
-title: Rating
-description: 'Fully featured Rating component using CSS only, no JS at all'
-category: 'Components'
 codesandboxLinks: {
   initialValueSet: 'cssonly-rating-initial-value-set-mm25y',
   customIcons: 'cssonly-rating-custom-icons-nfnst',
   customIconsFontAwesome: 'cssonly-rating-custom-icons-fontawesome-rwivm',
   resetOption: 'cssonly-rating-reset-option-j8o6v'
 }
+---
+
+# Rating
+Fully featured Rating component using CSS only, no JS at all
+
 ---
 
 ## Example
@@ -56,11 +58,9 @@ codesandboxLinks: {
 
 ### HTML Attributes options
 
-<d-alert type="info">
-
+::alert{type=info}
 A default initial value can be set by adding `checked` attribute to one of the radio inputs.
-
-</d-alert>
+::
 
 ---
 

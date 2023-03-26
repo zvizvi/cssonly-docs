@@ -1,7 +1,6 @@
----
-title: Tooltip
-description: 'Fully featured Tooltip component using CSS only, no JS at all'
-category: 'Components'
+# Tooltip
+Fully featured Tooltip component using CSS only, no JS at all
+
 ---
 
 ## Example

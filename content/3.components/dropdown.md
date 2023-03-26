@@ -1,13 +1,15 @@
 ---
-title: Dropdown
-description: 'Fully featured Dropdown component using CSS only, no JS at all'
-category: 'Components'
 codesandboxLinks: {
   onHover: 'cssonly-dropdown-onhover-pgx9b',
   dropup: 'cssonly-dropdown-dropup-wgkeo',
   alignRight: 'cssonly-dropdown-right-6cro8',
   noClose: 'cssonly-dropdown-noclose-nry1f',
 }
+---
+
+# Dropdown
+Fully featured Dropdown component using CSS only, no JS at all
+
 ---
 
 ## Example
@@ -61,11 +63,9 @@ codesandboxLinks: {
 ```
 <br>
 
-<d-alert type="info">
-
+::alert{type=info}
 **Important:** When using the `cssonly-dropdown-onhover` option, you most also replace the `<details>` element with a regular `<div>` tag (see an example below).
-
-</d-alert>
+::
 <br>
 
 
@@ -90,6 +90,9 @@ codesandboxLinks: {
     list-style: none;
     padding: 0;
     margin: 0;
+  }
+  .cssonly-dropdown .cssonly-dropdown-menu li a {
+    border-bottom :0;
   }
   .cssonly-dropdown .cssonly-dropdown-menu li:before {
     content: none;

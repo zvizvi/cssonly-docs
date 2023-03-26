@@ -1,7 +1,4 @@
 ---
-title: Image Slider
-description: 'Fully featured Image Slider component using CSS only, no JS at all'
-category: 'Components'
 codesandboxLinks: {
   clickToSlide: 'cssonly-image-slider-clickToSlide-f5hr77',
   noArrows: 'cssonly-image-slider-noArrows-l2vvq',
@@ -9,6 +6,9 @@ codesandboxLinks: {
   noTransition: 'cssonly-image-slider-notransition-bbrof',
 }
 ---
+
+# Image Slider
+Fully featured Image Slider component using CSS only, no JS at all
 
 ## Example
 <div class="p-10 text-center">

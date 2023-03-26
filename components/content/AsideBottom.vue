@@ -9,5 +9,7 @@
       />
     </span>
     by <a href="https://github.com/zvizvi" target="_blank">@zvizvi</a>
+    <slot />
+    <ContentSlot />
   </div>
 </template>

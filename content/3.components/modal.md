@@ -1,7 +1,4 @@
 ---
-title: Modal
-description: 'Fully featured Modal Box component using CSS only, no JS at all'
-category: 'Components'
 codesandboxLinks: {
   noBackdrop: 'cssonly-modal-no-backdrop-61vo4',
   staticBackdrop: 'cssonly-modal-static-backdrop-yxc0j',
@@ -10,6 +7,9 @@ codesandboxLinks: {
   noAnimation: 'cssonly-modal-no-animation-zqoli'
 }
 ---
+
+# Modal
+Fully featured Modal Box component using CSS only, no JS at all
 
 ## Example
 <div class="p-10 text-center">
@@ -77,11 +77,10 @@ codesandboxLinks: {
 ```
 
 ### HTML Options
-<d-alert type="info">
 
+::alert{type=info}
 The `cssonly-modal-backdrop` can be changed from `<label>` to a `<div>` tag, to make it static - non-clickable
-
-</d-alert>
+::
 
 <br>
 
